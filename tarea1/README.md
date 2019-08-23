@@ -1,5 +1,5 @@
 
 ## prueba de link
-[link a reame principal] (../README.md)
+[link a reame principal](../README.md)
 
-[programa csharp] (../p1/Program.cs)
+[programa csharp](../p1/Program.cs)
