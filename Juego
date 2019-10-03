@@ -16,6 +16,19 @@ namespace juego
             this.renglon=renglon;
             this.columna=columna;
         }
+        public void actualiza_estado()
+        {
+        }
+        private short num_vecinas()
+        {
+            short cuenta=0;
+            //1 
+            if (renglon>0 && columna>0)
+            {
+                if(tablero.grid[renglon-1][columna-1. estado_actual==Estado.viva])
+                cuenta++;
+            }
+        }
         public void print()
         {
             if (this.estado_actual==Estado.viva)
@@ -30,24 +43,18 @@ namespace juego
     }
     class Tablero
     {
-        private List <List<Celula>> grid;
+        public List <List<Celula>> grid;
         
-        public Tablero()
+        public Tablero(short num_renglones, short num_columnas)
             {
-               grid=new List<List<Celula>>();
-               grid.Add(new List<Celula>());
-               grid[0].Add(new Celula (Estado.viva, this, 0,0));   //otra opcion es (Celula) 0 ... es para número aleatorios
-               grid[0].Add(new Celula (Estado.viva, this, 0,1));
-               grid[0].Add(new Celula (Estado.viva, this, 0,2));
-
-               grid[0].Add(new Celula (Estado.viva, this, 1,0));
-               grid[0].Add(new Celula (Estado.viva, this, 1,1));
-               grid[0].Add(new Celula (Estado.viva, this, 1,2));
-
-               grid[0].Add(new Celula (Estado.viva, this, 2,0));
-               grid[0].Add(new Celula (Estado.viva, this, 2,1));
-               grid[0].Add(new Celula (Estado.viva, this, 2,2));
-
+                for (short i=0; i<=9; i++)
+                {
+                    grid=new List<List<Celula>>();
+                    for (short j=0;j<=19; j++)
+                    {
+                        grid[i].Add(new Celula (Estado.viva, this, i,j));
+                    }
+                }
             }
         public void print()
         {
@@ -63,13 +70,14 @@ namespace juego
             }
                 
         }
+
     }
     class Program
     {
         static void Main(string[] args)
         {
-            /* Console.WriteLine("▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"); Console.WriteLine("▒▒▒▒▒▒▒▒▒▒▒▒▒▓▒▒▒▒▒▒▒▒▒▒▒▒");*/
-            Tablero GoL=new Tablero();
+            Tablero GoL=new Tablero(80,120);
+            GoL.inserta(new Celula(Estado.viva, GoL, 3,3));
             GoL.print();
         }
     }
