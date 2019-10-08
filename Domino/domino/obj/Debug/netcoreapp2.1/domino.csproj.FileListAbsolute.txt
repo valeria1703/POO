@@ -1,0 +1,11 @@
+C:\Users\ITT\Documents\Domino\domino\bin\Debug\netcoreapp2.1\domino.deps.json
+C:\Users\ITT\Documents\Domino\domino\bin\Debug\netcoreapp2.1\domino.runtimeconfig.json
+C:\Users\ITT\Documents\Domino\domino\bin\Debug\netcoreapp2.1\domino.runtimeconfig.dev.json
+C:\Users\ITT\Documents\Domino\domino\bin\Debug\netcoreapp2.1\domino.dll
+C:\Users\ITT\Documents\Domino\domino\bin\Debug\netcoreapp2.1\domino.pdb
+C:\Users\ITT\Documents\Domino\domino\obj\Debug\netcoreapp2.1\domino.csprojAssemblyReference.cache
+C:\Users\ITT\Documents\Domino\domino\obj\Debug\netcoreapp2.1\domino.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Documents\Domino\domino\obj\Debug\netcoreapp2.1\domino.AssemblyInfoInputs.cache
+C:\Users\ITT\Documents\Domino\domino\obj\Debug\netcoreapp2.1\domino.AssemblyInfo.cs
+C:\Users\ITT\Documents\Domino\domino\obj\Debug\netcoreapp2.1\domino.dll
+C:\Users\ITT\Documents\Domino\domino\obj\Debug\netcoreapp2.1\domino.pdb
