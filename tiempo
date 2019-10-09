@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+
+namespace tiempo
+{
+    class Duracion
+    {
+        public int horas, minutos, segundos;
+        public Duracion()
+        {
+            horas=2;
+            minutos=10;
+            segundos=23;
+        }
+
+        public Duracion (int H, int M, int S)
+        {
+            this.horas=H;
+            this.minutos=M;
+            this.segundos=S;
+        }
+        public void print ()
+        {
+           Console.Write("Horas: {0}", horas);
+        }
+        
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Duracion horas=new Duracion ();
+            Console.WriteLine();
+        }
+    }
+}
