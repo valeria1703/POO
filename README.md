@@ -1,7 +1,7 @@
 # POO
-# TITULO
+## Título 
 hola tec
-## TITULO
+###Título
 hola sistemas
 ### TITULO
 veintidos
