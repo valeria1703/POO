@@ -1,0 +1,3 @@
+C:\Users\Alejandra\Documents\Vale programas\rectangulo\obj\HPD\Debug\netcoreapp3.0\rectangulo.csprojAssemblyReference.cache
+C:\Users\Alejandra\Documents\Vale programas\rectangulo\obj\HPD\Debug\netcoreapp3.0\rectangulo.AssemblyInfoInputs.cache
+C:\Users\Alejandra\Documents\Vale programas\rectangulo\obj\HPD\Debug\netcoreapp3.0\rectangulo.AssemblyInfo.cs
