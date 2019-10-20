@@ -1,0 +1,11 @@
+C:\Users\Alejandra\Documents\Vale programas\alumno\obj\HPD\Debug\netcoreapp3.0\alumno.csprojAssemblyReference.cache
+C:\Users\Alejandra\Documents\Vale programas\alumno\obj\HPD\Debug\netcoreapp3.0\alumno.AssemblyInfoInputs.cache
+C:\Users\Alejandra\Documents\Vale programas\alumno\obj\HPD\Debug\netcoreapp3.0\alumno.AssemblyInfo.cs
+C:\Users\Alejandra\Documents\Vale programas\alumno\bin\HPD\Debug\netcoreapp3.0\alumno.exe
+C:\Users\Alejandra\Documents\Vale programas\alumno\bin\HPD\Debug\netcoreapp3.0\alumno.deps.json
+C:\Users\Alejandra\Documents\Vale programas\alumno\bin\HPD\Debug\netcoreapp3.0\alumno.runtimeconfig.json
+C:\Users\Alejandra\Documents\Vale programas\alumno\bin\HPD\Debug\netcoreapp3.0\alumno.runtimeconfig.dev.json
+C:\Users\Alejandra\Documents\Vale programas\alumno\bin\HPD\Debug\netcoreapp3.0\alumno.dll
+C:\Users\Alejandra\Documents\Vale programas\alumno\bin\HPD\Debug\netcoreapp3.0\alumno.pdb
+C:\Users\Alejandra\Documents\Vale programas\alumno\obj\HPD\Debug\netcoreapp3.0\alumno.dll
+C:\Users\Alejandra\Documents\Vale programas\alumno\obj\HPD\Debug\netcoreapp3.0\alumno.pdb
