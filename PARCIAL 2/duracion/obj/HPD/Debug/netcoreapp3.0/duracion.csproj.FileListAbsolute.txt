@@ -1,0 +1,11 @@
+C:\Users\Alejandra\Documents\Vale programas\duracion\obj\HPD\Debug\netcoreapp3.0\duracion.csprojAssemblyReference.cache
+C:\Users\Alejandra\Documents\Vale programas\duracion\obj\HPD\Debug\netcoreapp3.0\duracion.AssemblyInfoInputs.cache
+C:\Users\Alejandra\Documents\Vale programas\duracion\obj\HPD\Debug\netcoreapp3.0\duracion.AssemblyInfo.cs
+C:\Users\Alejandra\Documents\Vale programas\duracion\bin\HPD\Debug\netcoreapp3.0\duracion.exe
+C:\Users\Alejandra\Documents\Vale programas\duracion\bin\HPD\Debug\netcoreapp3.0\duracion.deps.json
+C:\Users\Alejandra\Documents\Vale programas\duracion\bin\HPD\Debug\netcoreapp3.0\duracion.runtimeconfig.json
+C:\Users\Alejandra\Documents\Vale programas\duracion\bin\HPD\Debug\netcoreapp3.0\duracion.runtimeconfig.dev.json
+C:\Users\Alejandra\Documents\Vale programas\duracion\bin\HPD\Debug\netcoreapp3.0\duracion.dll
+C:\Users\Alejandra\Documents\Vale programas\duracion\bin\HPD\Debug\netcoreapp3.0\duracion.pdb
+C:\Users\Alejandra\Documents\Vale programas\duracion\obj\HPD\Debug\netcoreapp3.0\duracion.dll
+C:\Users\Alejandra\Documents\Vale programas\duracion\obj\HPD\Debug\netcoreapp3.0\duracion.pdb
