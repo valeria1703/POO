@@ -1,0 +1,11 @@
+C:\Users\Alejandra\Documents\Vale programas\producto\bin\HPD\Debug\netcoreapp3.0\producto.exe
+C:\Users\Alejandra\Documents\Vale programas\producto\bin\HPD\Debug\netcoreapp3.0\producto.deps.json
+C:\Users\Alejandra\Documents\Vale programas\producto\bin\HPD\Debug\netcoreapp3.0\producto.runtimeconfig.json
+C:\Users\Alejandra\Documents\Vale programas\producto\bin\HPD\Debug\netcoreapp3.0\producto.runtimeconfig.dev.json
+C:\Users\Alejandra\Documents\Vale programas\producto\bin\HPD\Debug\netcoreapp3.0\producto.dll
+C:\Users\Alejandra\Documents\Vale programas\producto\bin\HPD\Debug\netcoreapp3.0\producto.pdb
+C:\Users\Alejandra\Documents\Vale programas\producto\obj\HPD\Debug\netcoreapp3.0\producto.csprojAssemblyReference.cache
+C:\Users\Alejandra\Documents\Vale programas\producto\obj\HPD\Debug\netcoreapp3.0\producto.AssemblyInfoInputs.cache
+C:\Users\Alejandra\Documents\Vale programas\producto\obj\HPD\Debug\netcoreapp3.0\producto.AssemblyInfo.cs
+C:\Users\Alejandra\Documents\Vale programas\producto\obj\HPD\Debug\netcoreapp3.0\producto.dll
+C:\Users\Alejandra\Documents\Vale programas\producto\obj\HPD\Debug\netcoreapp3.0\producto.pdb
