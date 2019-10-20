@@ -22,3 +22,5 @@
 [Producto](https://github.com/valeria1703/POO/tree/master/PARCIAL%202/producto)
 
 [Alumno](https://github.com/valeria1703/POO/tree/master/PARCIAL%202/alumno)
+
+[Rectangulo](https://github.com/valeria1703/POO/tree/master/PARCIAL%202/rectangulo)
