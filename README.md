@@ -1,8 +1,2 @@
-# POO
-## Título 
-hola tec
+### duracion
 
-#### tjn
-hola sistemas
-### TITULO
-veintidos
