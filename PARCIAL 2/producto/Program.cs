@@ -5,8 +5,7 @@ namespace Producto
 {
     class Producto
     {
-        private string codigo;
-        private string nombre, descripcion;
+        private string codigo, nombre, descripcion;
         private int precio;
         public void print()
         {
