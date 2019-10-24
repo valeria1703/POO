@@ -5,12 +5,11 @@ namespace face
 {
     abstract class Publicacion
     {
-        public string usuario;
-        public string hora;
-        public string fecha;
-        public Publicacion (string usu, string ho, string fe)
+        public string usuario, hora, fecha, descripcion;
+        public Publicacion (string usu, string descp, string ho, string fe)
         {
             this.usuario=usu;
+            this.descripcion=descp;
             this.hora=ho;
             this.fecha=fe;
         }
@@ -18,16 +17,22 @@ namespace face
     }
     class Estado:Publicacion
     {
-        public void print()
+        public string estado;
+        public Estado (string usu)
         {
-            Console.WriteLine("")
+            this.usuario=usu;
+        }
+        public override void print()
+        {
+            Console.WriteLine();
         }
     }
+    
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
