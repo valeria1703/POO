@@ -1,0 +1,60 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+namespace oop
+{
+    class Producto
+    {
+        public string codigo, descripcion;
+        public double precio;
+
+        public Producto(string c, string d, double p)
+        {
+            codigo = c; descripcion = d; precio = p;
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Producto> productos = new List<Producto>();
+            productos.Add(new Producto("AQW", "Lapiz Azul w2", 12.23d));
+            productos.Add(new Producto("AQW", "Lapiz Verde w2", 12.23d));
+            productos.Add(new Producto("AQW", "Pluma Azul w2", 22.23d));
+            productos.Add(new Producto("AQW", "Borrador ww2", 22.23d));
+
+            FileStream fs = new FileStream(@"F:\producto.txt", FileMode.OpenOrCreate, FileAccess.Write);
+                StreamWriter txtout = new StreamWriter(fs);
+
+            foreach (Producto p in productos)
+            {
+                // txtout.Write(p.descripcion); txtout.WriteLine(p.precio);
+                txtout.WriteLine("{0}{1}{2}", p.codigo, p.descripcion, p.precio);
+            }
+
+            txtout.Close();
+            Console.WriteLine("Archivo Grabado");
+            Console.ReadKey();
+            
+            List<Producto> productos_leidos = new List<Producto>();
+
+            using( StreamReader sr = new StreamReader ("productos.txt"))
+            {
+                string line = "";
+                while((line = sr.ReadLine())!=null) //mientras no se llegue al final del archivo
+                {
+                    Console.WriteLine("line: " + line);
+                    //Console.WriteLine(columnas[0]);
+                    productos_leidos.Add(new Producto(columnas[0], columnas[1],Double.Parse(columnas[2]) ) );
+                }
+            }
+            /*string texto = "Hola,Hey,asd,asd,asd,asd,asd";
+            string[] cadenas = texto.Split(",");
+            Console.WriteLine(cadenas[3]);*/
+            foreach (Producto p in productos_leidos)
+            {
+                Console.WriteLine("{0} {1} {2}", p.codigo, p.descripcion, p.precio);
+            }
+        }
+    }
+}
