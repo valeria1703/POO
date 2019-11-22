@@ -43,7 +43,8 @@ namespace oop
                 string line = "";
                 while((line = sr.ReadLine())!=null) //mientras no se llegue al final del archivo
                 {
-                    Console.WriteLine("line: " + line);
+                    //Console.WriteLine("line: " + line);
+                    string[] columnas = line.Split('-');
                     //Console.WriteLine(columnas[0]);
                     productos_leidos.Add(new Producto(columnas[0], columnas[1],Double.Parse(columnas[2]) ) );
                 }
